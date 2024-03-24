@@ -12,10 +12,25 @@ void MenuTask()
     cout << "    5.  Examples of problems using bitwise operations \n";
     cout << "    6.  Exit \n";
 }
-void task1() {
+auto task1() {
     // Обчислення виразів з використанням побітових операцій
     // Calculation of expressions using bitwise operations 
+    int a, b, c, d;
+    int result;
     cout << " Calculation of expressions using bitwise operations  \n";
+    cout << "Enter A:";
+    cin >>  a ;
+    cout << "Enter B:";
+    cin >> b;
+    cout << "Enter C:";
+    cin >> c;
+    cout << "Enter D:";
+    cin >> d;
+    result = (a << 4) - a;
+    cout << "Result:" << result;
+    int check_res = a * 15 ;
+    cout << "Result check:" << check_res;
+
 }
 
 void task2()
